@@ -1,0 +1,145 @@
+body, h1, p , img{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 20.4375rem;
+  height: 22.5rem;
+  flex-shrink: 0;
+  border-radius: 0.9375rem;
+  background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+  display: flex;
+  flex-direction: column;
+ 
+}
+.inside{
+  margin: 1.5rem 1.5rem 2rem 1.5rem ;
+}
+.star{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.question,.information,.numberContainer,.buttonSubmite{
+  width: 17.4375rem;
+}
+.question{
+  margin-top: 1rem;
+  color:  #FFF;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.information{
+  margin-top: 0.63rem;
+  color:  #969FAD;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem; 
+}
+.numberContainer{
+  padding: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+Button{
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  width: 2.625rem;
+  height: 2.625rem;
+  background-color: #262E38;
+}
+.numbers{
+  padding: 0;
+  color: #7C8798;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; 
+  letter-spacing: 0.01094rem;
+}
+
+.buttonSubmite{
+  padding: 0;
+   margin-top: 1.5rem;
+   height: 2.8125rem;
+   border-radius: 1.40625rem;
+   background:  #FC7614;
+   border: none;
+  color:  #FFF;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.11669rem;
+}
+.numbers:hover,.submite:hover{
+  cursor: pointer;
+}
+.numbers:hover{
+  background-color: #FC7614;
+}
+.numbers:hover,.numbers:focus{
+  color:  #FFF;
+}
+.buttonSubmite:hover,.buttonSubmite:focus{
+   background-color: #FFF;
+}
+.buttonSubmite:hover,.buttonSubmite:focus{
+  color: #FC7614;
+}
+Button:focus{
+background: #7C8798;
+}
+
+
+.illustration{
+  width: 9rem;
+  height: 6rem;
+  margin: 2.12rem 5.69rem 1.5rem 5.75rem;
+}
+.select{
+  min-width: 10.5rem;
+  height: 2rem;
+  background: #262E38;
+  border-radius: 1.40625rem;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  align-items: center;
+}
+.youSelect{
+  padding: 0.31rem 0.75rem;
+  color:  #FC7614;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem; /* 157.143% */
+}
+.thank,.information2{
+  width: 17.4375rem;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.thank{
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.6rem;
+}
+.information2{
+  color: #969FAD;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem; /* 157.143% */
+  margin-bottom: 2.31rem;
+}
+
